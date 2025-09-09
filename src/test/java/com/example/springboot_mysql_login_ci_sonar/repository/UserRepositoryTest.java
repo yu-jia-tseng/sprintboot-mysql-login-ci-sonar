@@ -28,7 +28,7 @@ class UserRepositoryTest {
 
     private User testUser;
 
-    /*@BeforeEach
+    @BeforeEach
     void setUp() {
         testUser = new User();
         testUser.setUsername("測試用戶");
@@ -180,7 +180,7 @@ class UserRepositoryTest {
 
         // Then
         assertFalse(foundUser.isPresent());
-    }*/
+    }
 
     @Test
     void testUniqueConstraints() {
