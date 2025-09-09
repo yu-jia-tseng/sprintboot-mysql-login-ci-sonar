@@ -28,7 +28,7 @@ class UserRepositoryTest {
 
     private User testUser;
 
-    @BeforeEach
+    /*@BeforeEach
     void setUp() {
         testUser = new User();
         testUser.setUsername("測試用戶");
@@ -55,7 +55,7 @@ class UserRepositoryTest {
         assertTrue(foundUser.get().getEnabled());
     }
 
-    /*@Test
+    @Test
     void testFindByLoginId() {
         // Given
         entityManager.persistAndFlush(testUser);
